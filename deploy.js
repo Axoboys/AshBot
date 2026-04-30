@@ -169,18 +169,8 @@ const commands = [
 		.setDescription("Affiche le top 10 des joueurs"),
 
 	/* ===== GOAT ===== */
-	new SlashCommandBuilder().setName("moula").setDescription("GOAT moula"),
+	new SlashCommandBuilder().setName("ash").setDescription("GOAT ash"),
 	new SlashCommandBuilder().setName("axo").setDescription("GOAT axo"),
-	new SlashCommandBuilder().setName("mano").setDescription("GOAT mano"),
-	new SlashCommandBuilder().setName("hestia").setDescription("GOAT hestia"),
-	new SlashCommandBuilder().setName("banana").setDescription("GOAT banana"),
-	new SlashCommandBuilder().setName("mat").setDescription("GOAT mat"),
-	new SlashCommandBuilder().setName("chloe").setDescription("GOAT chloe"),
-	new SlashCommandBuilder().setName("acidic").setDescription("GOAT acidic"),
-	new SlashCommandBuilder().setName("greg").setDescription("GOAT greg"),
-	new SlashCommandBuilder().setName("kayou").setDescription("GOAT kayou"),
-	new SlashCommandBuilder().setName("jojo").setDescription("GOAT jojo"),
-	new SlashCommandBuilder().setName("fanarupi").setDescription("GOAT fanarupi"),
 
 	/* ===== /lesaviezvous ===== */
 	new SlashCommandBuilder()
