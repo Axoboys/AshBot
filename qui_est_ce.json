@@ -1,0 +1,933 @@
+[
+  {
+    "nom": "Mario",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Il porte souvent une casquette",
+      "Il est plombier",
+      "Il vient de Nintendo",
+      "Il sauve souvent une princesse"
+    ]
+  },
+  {
+    "nom": "Zelda",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Elle est liée à Hyrule",
+      "Elle est souvent capturée",
+      "Elle apparaît dans The Legend of Zelda",
+      "Elle n'est pas le héros principal"
+    ]
+  },
+  {
+    "nom": "Squeezie",
+    "indices": [
+      "Personnalité française",
+      "Créateur de contenu",
+      "Très connu sur YouTube",
+      "Il fait aussi de la musique",
+      "Il s'appelle Lucas"
+    ]
+  },
+  {
+    "nom": "Pikachu",
+    "indices": [
+      "Personnage d'animation",
+      "C'est un Pokémon",
+      "Il est jaune",
+      "Il dit souvent son nom",
+      "Mascotte de Pokémon"
+    ]
+  },
+  {
+    "nom": "Iron Man",
+    "indices": [
+      "Super-héros",
+      "Il porte une armure",
+      "Son vrai nom est Tony Stark",
+      "Membre des Avengers",
+      "Personnage Marvel"
+    ]
+  },
+  {
+    "nom": "Naruto",
+    "indices": [
+      "Personnage d'anime",
+      "Ninja",
+      "Cheveux blonds",
+      "Porte un bandeau frontal",
+      "Héros du manga Naruto"
+    ]
+  },
+
+  {
+    "nom": "Chat",
+    "indices": [
+      "Animal domestique",
+      "Ronronne",
+      "Aime chasser les souris",
+      "A quatre pattes",
+      "Peut grimper aux arbres"
+    ]
+  },
+  {
+    "nom": "PewDiePie",
+    "indices": [
+      "YouTubeur suédois",
+      "Jeux vidéo et divertissement",
+      "Abonnés très nombreux",
+      "Humour et memes",
+      "Félix Kjellberg"
+    ]
+  },
+  {
+    "nom": "GTA",
+    "indices": [
+      "Jeu vidéo",
+      "Monde ouvert",
+      "Vols et courses",
+      "Rockstar Games",
+      "Trois personnages principaux"
+    ]
+  },
+  {
+    "nom": "Kermit",
+    "indices": [
+      "Marionnette",
+      "Grenouille verte",
+      "Les Muppets",
+      "Chante et parle",
+      "Fait souvent des blagues"
+    ]
+  },
+  {
+    "nom": "Harry Potter",
+    "indices": [
+      "Personnage de roman",
+      "Sorcier",
+      "A des lunettes rondes",
+      "École de magie Poudlard",
+      "A une cicatrice en forme d'éclair"
+    ]
+  },
+  {
+    "nom": "Panda",
+    "indices": [
+      "Animal",
+      "Noir et blanc",
+      "Mange du bambou",
+      "Originaire de Chine",
+      "Animal très mignon"
+    ]
+  },
+  {
+    "nom": "Link",
+    "indices": [
+      "Héros de jeu vidéo",
+      "Porte un bonnet vert",
+      "Épée et bouclier",
+      "Nintendo",
+      "Sauve souvent la princesse Zelda"
+    ]
+  },
+  {
+    "nom": "Batman",
+    "indices": [
+      "Super-héros",
+      "Ville de Gotham",
+      "Masque et cape",
+      "Justicier sans super-pouvoirs",
+      "Riche industriel Bruce Wayne"
+    ]
+  },
+  {
+    "nom": "SpiderMan",
+    "indices": [
+      "Super-héros",
+      "Il tisse des toiles",
+      "New York",
+      "Son vrai nom est Peter Parker",
+      "Apparaît dans les films Marvel"
+    ]
+  },
+  {
+    "nom": "Dora l'exploratrice",
+    "indices": [
+      "Personnage d'animation",
+      "Jeune fille aventurière",
+      "Accompagnée d'un singe",
+      "Parle aux spectateurs",
+      "Exploration et énigmes"
+    ]
+  },
+  {
+    "nom": "Shrek",
+    "indices": [
+      "Personnage de film d'animation",
+      "Ogre vert",
+      "Vit dans un marais",
+      "Aime la tranquillité",
+      "Marié à Fiona"
+    ]
+  },
+  {
+    "nom": "Steve",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Minecraft",
+      "Cube et pixels",
+      "Mine et construit",
+      "Peut combattre des monstres"
+    ]
+  },
+  {
+    "nom": "Billie Eilish",
+    "indices": [
+      "Chanteuse",
+      "Blonde platine puis cheveux verts",
+      "Pop et alternative",
+      "Américaine",
+      "Jeune et célèbre"
+    ]
+  },
+  {
+    "nom": "Winnie l'Ourson",
+    "indices": [
+      "Personnage d'animation",
+      "Petit ours jaune",
+      "Aime le miel",
+      "Vit dans la forêt des rêves bleus",
+      "A beaucoup d'amis animaux"
+    ]
+  },
+  {
+    "nom": "Fortnite",
+    "indices": [
+      "Jeu vidéo",
+      "Battle Royale",
+      "Construire et combattre",
+      "Epic Games",
+      "Skins et emotes populaires"
+    ]
+  },
+  {
+    "nom": "Pikmin",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Petites créatures",
+      "Aident le héros",
+      "Nintendo",
+      "Peuvent être rouges, bleus ou jaunes"
+    ]
+  },
+  {
+    "nom": "Bob l'éponge",
+    "indices": [
+      "Personnage d'animation",
+      "Carré et jaune",
+      "Vit dans un ananas",
+      "Travaille au Crabe Croustillant",
+      "Meilleur ami de Patrick"
+    ]
+  },
+  {
+    "nom": "Sonic",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Hérisson bleu",
+      "Très rapide",
+      "Apparaît dans les jeux Sega",
+      "A un ami nommé Tails"
+    ]
+  },
+  {
+    "nom": "Taylor Swift",
+    "indices": [
+      "Chanteuse",
+      "Pop et country",
+      "Américaine",
+      "A de nombreux albums",
+      "Aime écrire sur ses relations"
+    ]
+  },
+  {
+    "nom": "LeBron James",
+    "indices": [
+      "Joueur de basket",
+      "NBA",
+      "Cleveland, Lakers",
+      "Très célèbre",
+      "Grand athlète américain"
+    ]
+  },
+  {
+    "nom": "Hestiacraft",
+    "indices": [
+      "Streameuse Multi-Gaming",
+      "Créatrice vidéo axé sur les jeux cosy",
+      "Elle répend sa bonne humeur à chaque live",
+      "Elle à une communauté trés active",
+      "Tous ses modérateurs sont des personnes en or"
+    ]
+  },
+  {
+    "nom": "Orelsan",
+    "indices": [
+      "Rappeur français",
+      "Chanteur et compositeur",
+      "Connu pour ses textes humoristiques",
+      "Album célèbre : La fête est finie",
+      "Originaire de Caen"
+    ]
+  },
+  {
+    "nom": "Tibo Inshape",
+    "indices": [
+      "YouTubeur français",
+      "Fitness et musculation",
+      "Très actif sur les réseaux sociaux",
+      "Personnage énergique",
+      "Conseils sportifs et motivation"
+    ]
+  },
+  {
+    "nom": "Minecraft",
+    "indices": [
+      "Jeu vidéo",
+      "Monde ouvert",
+      "Construire et miner",
+      "Blocs et pixels",
+      "Créatif ou survie"
+    ]
+  },
+  {
+    "nom": "Chat GPT",
+    "indices": [
+      "Intelligence artificielle",
+      "Créé par OpenAI",
+      "Dialogue et réponses",
+      "Peut écrire du texte",
+      "Utilisé dans de nombreuses applications"
+    ]
+  },
+  {
+    "nom": "Mr Beast",
+    "indices": [
+      "YouTubeur américain",
+      "Grandes expériences et challenges",
+      "Donne beaucoup d'argent",
+      "Très célèbre sur YouTube",
+      "Vrai nom : Jimmy Donaldson"
+    ]
+  },
+  {
+    "nom": "Michael Jackson",
+    "indices": [
+      "Chanteur américain",
+      "Roi de la pop",
+      "Danseur célèbre",
+      "Album Thriller",
+      "Icone de la musique"
+    ]
+  },
+  {
+    "nom": "Inoxtag",
+    "indices": [
+      "YouTubeur français",
+      "Vidéos divertissantes",
+      "Jeux vidéo et challenges",
+      "Très jeune audience",
+      "Contenu dynamique et humoristique"
+    ]
+  },
+  {
+    "nom": "Amixem",
+    "indices": [
+      "YouTubeur français",
+      "Vidéos créatives et divertissantes",
+      "Jeux vidéo et défis",
+      "Humour et originalité",
+      "Très populaire sur YouTube"
+    ]
+  },
+  {
+    "nom": "Goku",
+    "indices": [
+      "Personnage d'anime",
+      "Très puissant",
+      "Cheveux noirs puis blonds",
+      "Saiyan",
+      "Dragon Ball"
+    ]
+  },
+  {
+    "nom": "Kratos",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Très musclé",
+      "Lié à la mythologie",
+      "Utilise des lames",
+      "God of War"
+    ]
+  },
+  {
+    "nom": "Luffy",
+    "indices": [
+      "Personnage d'anime",
+      "Pirate",
+      "Chapeau de paille",
+      "Pouvoirs élastiques",
+      "One Piece"
+    ]
+  },
+  {
+    "nom": "Dark Vador",
+    "indices": [
+      "Personnage de film",
+      "Il porte un masque noir",
+      "Utilise la force",
+      "Sabre laser",
+      "Star Wars"
+    ]
+  },
+  {
+    "nom": "Yoda",
+    "indices": [
+      "Personnage de film",
+      "Très petit",
+      "Très sage",
+      "Parle bizarrement",
+      "Star Wars"
+    ]
+  },
+  {
+    "nom": "Homer Simpson",
+    "indices": [
+      "Personnage de série",
+      "Père de famille",
+      "Aime la bière",
+      "Pas très intelligent",
+      "Les Simpson"
+    ]
+  },
+  {
+    "nom": "Joker",
+    "indices": [
+      "Personnage fictif",
+      "Rire inquiétant",
+      "Ennemi de Batman",
+      "Maquillage",
+      "Fou et imprévisible"
+    ]
+  },
+  {
+    "nom": "Thanos",
+    "indices": [
+      "Super-vilain",
+      "Très puissant",
+      "Gants spéciaux",
+      "Marvel",
+      "Équilibre de l'univers"
+    ]
+  },
+  {
+    "nom": "Lara Croft",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Aventurière",
+      "Exploration",
+      "Pistolets",
+      "Tomb Raider"
+    ]
+  },
+  {
+    "nom": "Among Us",
+    "indices": [
+      "Jeu vidéo",
+      "Multijoueur",
+      "Imposteur",
+      "Espace",
+      "Trahison"
+    ]
+  },
+  {
+    "nom": "Valorant",
+    "indices": [
+      "Jeu vidéo",
+      "FPS",
+      "Personnages avec pouvoirs",
+      "Compétitif",
+      "Riot Games"
+    ]
+  },
+  {
+    "nom": "League of Legends",
+    "indices": [
+      "Jeu vidéo",
+      "MOBA",
+      "Champions",
+      "Riot Games",
+      "Très compétitif"
+    ]
+  },
+  {
+    "nom": "Cristiano Ronaldo",
+    "indices": [
+      "Sportif",
+      "Football",
+      "Très célèbre",
+      "Portugais",
+      "CR7"
+    ]
+  },
+  {
+    "nom": "Lionel Messi",
+    "indices": [
+      "Sportif",
+      "Football",
+      "Argentin",
+      "Très talentueux",
+      "Ballon d'or"
+    ]
+  },
+  {
+    "nom": "Elon Musk",
+    "indices": [
+      "Entrepreneur",
+      "Technologie",
+      "Espace",
+      "Tesla",
+      "Très médiatisé"
+    ]
+  },
+  {
+    "nom": "Dwayne Johnson",
+    "indices": [
+      "Acteur",
+      "Très musclé",
+      "Ancien catcheur",
+      "Hollywood",
+      "Surnommé The Rock"
+    ]
+  },
+  {
+    "nom": "Keanu Reeves",
+    "indices": [
+      "Acteur",
+      "Très apprécié",
+      "Films d'action",
+      "Matrix",
+      "John Wick"
+    ]
+  },
+  {
+    "nom": "Wednesday",
+    "indices": [
+      "Personnage de série",
+      "Très sérieuse",
+      "Famille bizarre",
+      "Netflix",
+      "Addams"
+    ]
+  },
+  {
+    "nom": "Rick Sanchez",
+    "indices": [
+      "Personnage d'animation",
+      "Scientifique fou",
+      "Voyage dimensionnel",
+      "Alcool",
+      "Rick et Morty"
+    ]
+  },
+  {
+    "nom": "Pac-Man",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Jaune",
+      "Mange des fantômes",
+      "Labyrinthe",
+      "Jeu rétro célèbre"
+    ]
+  },
+  {
+    "nom": "Kirby",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Rose",
+      "Peut avaler ses ennemis",
+      "Flotte dans les airs",
+      "Nintendo"
+    ]
+  },
+  {
+    "nom": "Krillin",
+    "indices": [
+      "Personnage d'anime",
+      "Petit et chauve",
+      "Arts martiaux",
+      "Ami de Goku",
+      "Dragon Ball"
+    ]
+  },
+  {
+    "nom": "Saitama",
+    "indices": [
+      "Personnage d'anime",
+      "Très puissant",
+      "Un seul coup suffit",
+      "Chauve",
+      "One Punch Man"
+    ]
+  },
+  {
+    "nom": "Aladdin",
+    "indices": [
+      "Personnage de film d'animation",
+      "Vit dans le désert",
+      "Possède un tapis volant",
+      "Génie",
+      "Disney"
+    ]
+  },
+  {
+    "nom": "Elsa",
+    "indices": [
+      "Personnage d'animation",
+      "Pouvoirs de glace",
+      "Reine",
+      "Château de glace",
+      "La Reine des Neiges"
+    ]
+  },
+  {
+    "nom": "Neo",
+    "indices": [
+      "Personnage de film",
+      "Élu",
+      "Contrôle la matrice",
+      "Manteau noir",
+      "Matrix"
+    ]
+  },
+  {
+    "nom": "Jack Sparrow",
+    "indices": [
+      "Personnage de film",
+      "Pirate",
+      "Démarche étrange",
+      "Capitaine",
+      "Pirates des Caraïbes"
+    ]
+  },
+  {
+    "nom": "Thomas Pesquet",
+    "indices": [
+      "Astronaute",
+      "Français",
+      "Espace",
+      "Station spatiale",
+      "Très populaire"
+    ]
+  },
+  {
+    "nom": "Zoro",
+    "indices": [
+      "Personnage d'anime",
+      "Épéiste",
+      "Trois sabres",
+      "Se perd souvent",
+      "One Piece"
+    ]
+  },
+  {
+    "nom": "Bowser",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Méchant",
+      "Crache du feu",
+      "Ennemi de Mario",
+      "Nintendo"
+    ]
+  },
+  {
+    "nom": "Donkey Kong",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Gorille",
+      "Très fort",
+      "Aime les bananes",
+      "Nintendo"
+    ]
+  },
+  {
+    "nom": "Luigi",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Frère de Mario",
+      "Porte une casquette verte",
+      "Un peu peureux",
+      "Nintendo"
+    ]
+  },
+  {
+    "nom": "Peach",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Princesse",
+      "Robe rose",
+      "Souvent kidnappée",
+      "Royaume Champignon"
+    ]
+  },
+  {
+    "nom": "Rayman",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Pas de bras ni de jambes",
+      "Très agile",
+      "Ubisoft",
+      "Univers coloré"
+    ]
+  },
+  {
+    "nom": "Crash Bandicoot",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Marsupial",
+      "Tourne sur lui-même",
+      "Masque magique",
+      "Jeu de plateforme"
+    ]
+  },
+  {
+    "nom": "Astérix",
+    "indices": [
+      "Personnage de BD",
+      "Gaulois",
+      "Petit mais fort",
+      "Potion magique",
+      "Village irréductible"
+    ]
+  },
+  {
+    "nom": "Obélix",
+    "indices": [
+      "Personnage de BD",
+      "Très fort",
+      "Livreur de menhirs",
+      "Aime les sangliers",
+      "Astérix"
+    ]
+  },
+  {
+    "nom": "Tintin",
+    "indices": [
+      "Personnage de BD",
+      "Journaliste",
+      "Aventure",
+      "Houpette",
+      "Accompagné de Milou"
+    ]
+  },
+  {
+    "nom": "Scooby-Doo",
+    "indices": [
+      "Personnage d'animation",
+      "Chien peureux",
+      "Aime manger",
+      "Résout des mystères",
+      "Parle presque"
+    ]
+  },
+  {
+    "nom": "Tom",
+    "indices": [
+      "Personnage d'animation",
+      "Chat",
+      "Essaie d'attraper une souris",
+      "Souvent perdant",
+      "Tom et Jerry"
+    ]
+  },
+  {
+    "nom": "Jerry",
+    "indices": [
+      "Personnage d'animation",
+      "Souris",
+      "Très maligne",
+      "Embête Tom",
+      "Tom et Jerry"
+    ]
+  },
+  {
+    "nom": "Hulk",
+    "indices": [
+      "Super-héros",
+      "Vert",
+      "Très en colère",
+      "Force immense",
+      "Marvel"
+    ]
+  },
+  {
+    "nom": "Thor",
+    "indices": [
+      "Super-héros",
+      "Dieu nordique",
+      "Marteau",
+      "Éclairs",
+      "Marvel"
+    ]
+  },
+  {
+    "nom": "Black Panther",
+    "indices": [
+      "Super-héros",
+      "Roi",
+      "Costume noir",
+      "Wakanda",
+      "Marvel"
+    ]
+  },
+  {
+    "nom": "Doctor Strange",
+    "indices": [
+      "Super-héros",
+      "Magie",
+      "Cape flottante",
+      "Voyage dans le temps",
+      "Marvel"
+    ]
+  },
+  {
+    "nom": "Voldemort",
+    "indices": [
+      "Personnage de roman",
+      "Sorcier",
+      "Sans nez",
+      "Très dangereux",
+      "Harry Potter"
+    ]
+  },
+  {
+    "nom": "Gandalf",
+    "indices": [
+      "Personnage de film",
+      "Magicien",
+      "Barbe longue",
+      "Bâton",
+      "Seigneur des Anneaux"
+    ]
+  },
+  {
+    "nom": "Dobby",
+    "indices": [
+      "Personnage de film",
+      "Elfe de maison",
+      "Grandes oreilles",
+      "Très fidèle",
+      "Harry Potter"
+    ]
+  },
+  {
+    "nom": "Yoshi",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Dinosaure vert",
+      "Nintendo",
+      "Ami de Mario",
+      "Porte Mario sur son dos"
+    ]
+  },
+  {
+    "nom": "Mewtwo",
+    "indices": [
+      "Pokémon",
+      "Psychique",
+      "Très puissant",
+      "Clone",
+      "Jeu et anime Pokémon"
+    ]
+  },
+  {
+    "nom": "Vegeta",
+    "indices": [
+      "Personnage d'anime",
+      "Dragon Ball",
+      "Prince Saiyan",
+      "Cheveux noirs ou blonds",
+      "Rival de Goku"
+    ]
+  },
+  {
+    "nom": "R2-D2",
+    "indices": [
+      "Personnage de film",
+      "Droïde",
+      "Petit et bleu",
+      "Star Wars",
+      "Robot utile"
+    ]
+  },
+  {
+    "nom": "Ellie",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "The Last of Us",
+      "Post-apocalyptique",
+      "Arme à feu",
+      "Jeune et courageuse"
+    ]
+  },
+  {
+    "nom": "Joel",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "The Last of Us",
+      "Survivant",
+      "Arme à feu",
+      "Protecteur d'Ellie"
+    ]
+  },
+  {
+    "nom": "Spyro",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Dragon violet",
+      "Souffle du feu",
+      "Platformer",
+      "Activision"
+    ]
+  },
+  {
+    "nom": "Tom Nook",
+    "indices": [
+      "Personnage de jeu vidéo",
+      "Animal",
+      "Raton laveur",
+      "Animal Crossing",
+      "Commerce et immobilier"
+    ]
+  },
+  {
+    "nom": "Morty",
+    "indices": [
+      "Personnage d'animation",
+      "Ado stressé",
+      "Voyage avec son grand-père",
+      "Multivers",
+      "Rick et Morty"
+    ]
+  },
+  {
+    "nom": "Deadpool",
+    "indices": [
+      "Super-héros",
+      "Très drôle",
+      "Brise le 4e mur",
+      "Marvel",
+      "Costume rouge"
+    ]
+  }
+]
