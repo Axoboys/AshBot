@@ -5,8 +5,8 @@ require("dotenv").config();
    🔧 CONFIG
 ========================= */
 const TOKEN = process.env.DISCORD_TOKEN;
-const CLIENT_ID = "1456735486650487035";
-const GUILD_ID = "959116625926316082";
+const CLIENT_ID = "1499480448089456801";
+const GUILD_ID = "1480144622067126363";
 
 if (!TOKEN) {
 	console.error("❌ DISCORD_TOKEN manquant dans le .env");
@@ -38,41 +38,14 @@ const commands = [
 				.setRequired(true)
 		),
 
-	/* ===== /pub ===== */
+	/* ===== ECONOMIE ===== */
 	new SlashCommandBuilder()
-		.setName("pub")
-		.setDescription("Faire la pub du live de Hestouille")
-		.addStringOption(option =>
-			option
-				.setName("theme")
-				.setDescription("Choisis le thème du live")
-				.setRequired(true)
-				.addChoices(
-					{ name: "Fortnite", value: "fortnite" },
-					{ name: "SpiderMan Miles Morales", value: "spiderman" },
-					{ name: "Lego", value: "lego" }
-				)
-		),
+		.setName("level")
+		.setDescription("Affiche ton nombre de points"),
 
-	/* ===== /tdb_pourcentage ===== */
 	new SlashCommandBuilder()
-		.setName("tdb_pourcentage")
-		.setDescription("Donne un pourcentage de trou de ballitude")
-		.addUserOption(option =>
-			option.setName("membre")
-				.setDescription("Le membre à analyser")
-				.setRequired(true)
-		),
-
-	/* ===== /bwan ===== */
-	new SlashCommandBuilder()
-		.setName("bwan")
-		.setDescription("BWAN quelqu'un")
-		.addUserOption(option =>
-			option.setName("membre")
-				.setDescription("La victime")
-				.setRequired(true)
-		),
+		.setName("classement")
+		.setDescription("Affiche le top 10 des joueurs"),
 
 	/* ===== /definition ===== */
 	new SlashCommandBuilder()
@@ -84,20 +57,19 @@ const commands = [
 				.setRequired(true)
 		),
 
+	new SlashCommandBuilder().setName("axo").setDescription("GOAT axo"),
+	new SlashCommandBuilder().setName("ash").setDescription("GOAT ash"),
+
+
 	/* ===== /nombre ===== */
 	new SlashCommandBuilder()
 		.setName("nombre")
-		.setDescription("Démarre un jeu pour deviner un nombre entre 1 et 1000"),
+		.setDescription("Chercher un nombre entre 1 et 1000"),
 
 	/* ===== /histoire ===== */
 	new SlashCommandBuilder()
 		.setName("histoire")
 		.setDescription("Construit ton histoire avec tes amis (avec ou sans sens)"),
-
-	/* ===== /pendu ===== */
-	new SlashCommandBuilder()
-		.setName("pendu")
-		.setDescription("Trouve le mots le plus rapidement possible"),
 
 	/* ===== /wordle ===== */
 	new SlashCommandBuilder()
@@ -109,33 +81,23 @@ const commands = [
 		.setName("presentation")
 		.setDescription("Présente toi"),
 
-	/* ===== /joinvoc ===== */
+	/* ===== /pendu ===== */
 	new SlashCommandBuilder()
-		.setName("joinvoc")
-		.setDescription("Faire rejoindre le bot en vocal"),
+		.setName("pendu")
+		.setDescription("Trouve le mots le plus rapidement possible"),
 
 	/* ===== /pileouface ===== */
 	new SlashCommandBuilder()
 		.setName("pileouface")
 		.setDescription("Lance une pièce pour voir ci tu as de la chance"),
 
-	/* ===== /theme ===== */
+	/* ===== /tdb_pourcentage ===== */
 	new SlashCommandBuilder()
-		.setName("theme")
-		.setDescription("Quel est le théme de ce discord ?"),
-
-	/* ===== /qui_est_ce ===== */
-	new SlashCommandBuilder()
-		.setName("qui_est_ce")
-		.setDescription("Lance une partie de Qui est-ce"),
-
-	/* ===== /dentiste ===== */
-	new SlashCommandBuilder()
-		.setName("dentiste")
-		.setDescription("Envoie un membre chez le dentiste (modo)")
+		.setName("tdb_pourcentage")
+		.setDescription("Donne un pourcentage de trou de ballitude")
 		.addUserOption(option =>
 			option.setName("membre")
-				.setDescription("Le membre à envoyer")
+				.setDescription("Le membre à analyser")
 				.setRequired(true)
 		),
 
@@ -159,28 +121,45 @@ const commands = [
 				.setRequired(true)
 		),
 
-	/* ===== ECONOMIE ===== */
+	/* ===== /dentiste ===== */
 	new SlashCommandBuilder()
-		.setName("level")
-		.setDescription("Affiche ton nombre de points"),
+		.setName("dentiste")
+		.setDescription("Envoie un membre chez le dentiste (modo)")
+		.addUserOption(option =>
+			option.setName("membre")
+				.setDescription("Le membre à envoyer chez le dentiste")
+				.setRequired(true)
+		),
 
+	/* ===== /qui_est_ce ===== */
 	new SlashCommandBuilder()
-		.setName("classement")
-		.setDescription("Affiche le top 10 des joueurs"),
+		.setName("qui_est_ce")
+		.setDescription("Lance une partie de Qui est-ce (célébrités / jeux vidéo)"),
 
-	/* ===== GOAT ===== */
-	new SlashCommandBuilder().setName("ash").setDescription("GOAT ash"),
-	new SlashCommandBuilder().setName("axo").setDescription("GOAT axo"),
+	/* ===== /bwan ===== */
+	new SlashCommandBuilder()
+		.setName("bwan")
+		.setDescription("BWAN quelqu'un")
+		.addUserOption(option =>
+			option.setName("membre")
+				.setDescription("La victime")
+				.setRequired(true)
+		),
 
 	/* ===== /lesaviezvous ===== */
 	new SlashCommandBuilder()
 		.setName("lesaviezvous")
 		.setDescription("Affiche une anecdote aléatoire"),
 
+	/* ===== /theme ===== */
+	new SlashCommandBuilder()
+		.setName("theme")
+		.setDescription("Quel est le théme de ce discord ?"),
+
 	/* ===== /help ===== */
 	new SlashCommandBuilder()
 		.setName("help")
-		.setDescription("Montre toutes les commandes du bot")
+		.setDescription("Montre toute les commandes du bot")
 
 ].map(cmd => cmd.toJSON());
 
